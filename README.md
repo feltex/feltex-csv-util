@@ -16,4 +16,4 @@
 
 ## 📺 Link dos vídeos
 
- - [Lendo CSV]()
+ - [Lendo CSV](https://github.com/feltex/feltex-csv-util)
