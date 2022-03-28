@@ -1,7 +1,6 @@
 package br.com.feltex;
 
 import br.com.feltex.exception.CabecalhoInvalidoException;
-import br.com.feltex.exception.LinhaInvalidaException;
 import br.com.feltex.modelo.Cliente;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang.StringUtils;
@@ -19,7 +18,7 @@ public class ImportaClienteCsv {
     private ImportaClienteCsv() {
     }
 
-    public static List<Cliente> lerArquivo(final InputStream arquivoInput) throws LinhaInvalidaException, CabecalhoInvalidoException {
+    public static List<Cliente> lerArquivo(final InputStream arquivoInput) throws CabecalhoInvalidoException {
         log.info("Processando o arquivo");
 
         var clientes = new ArrayList<Cliente>();
@@ -40,7 +39,7 @@ public class ImportaClienteCsv {
         }
     }
 
-    private static void adicionarCliente(String linha, List<Cliente> clientes) throws LinhaInvalidaException {
+    private static void adicionarCliente(String linha, List<Cliente> clientes) {
         var campos = linha.split(";");
         if (campos == null || campos.length < 2) {
             log.warn("Linha inválida {}", linha);
