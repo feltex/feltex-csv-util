@@ -5,10 +5,10 @@
   
 ## Tecnologias
 
-- [Java 11](https://youtu.be/_NCt_82M0MA)
-- [Maven](https://youtu.be/edF1G8RYDTU)
-- [Lombok](https://youtu.be/ypITltqNE9g)
-- [Logback](https://youtu.be/52iaLpBkYC0)
+- [Instalando o Java 11](https://youtu.be/_NCt_82M0MA)
+- [Instalação do Maven](https://youtu.be/edF1G8RYDTU)
+- [Como usuar o Lombok](https://youtu.be/ypITltqNE9g)
+- [Configuranto o log com Logback](https://youtu.be/52iaLpBkYC0)
 
 ## 📺 Link dos vídeos
 
