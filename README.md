@@ -12,4 +12,4 @@
 
 ## 📺 Link dos vídeos
 
- [Lendo CSV]()
+ - [Lendo CSV]()
