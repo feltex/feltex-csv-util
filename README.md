@@ -4,7 +4,7 @@
 
 ## Como funciona no projeto
 
-![Importar CSV](ImportarArquivoCsv.png)
+![Importar CSV](ImportarArquivoCsvV2.png)
   
 ## Tecnologias
 
