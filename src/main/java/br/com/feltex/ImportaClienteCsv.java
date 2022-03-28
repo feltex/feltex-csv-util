@@ -20,8 +20,7 @@ public class ImportaClienteCsv {
     }
 
     public static List<Cliente> lerArquivo(final InputStream arquivoInput) throws LinhaInvalidaException, CabecalhoInvalidoException {
-
-        log.info("Processando o arquivo {}", "NomeArquivo");
+        log.info("Processando o arquivo");
 
         var clientes = new ArrayList<Cliente>();
         try (var scanner = new Scanner(arquivoInput)) {
