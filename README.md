@@ -2,6 +2,9 @@
 
   Realiza a leitura de arquivo CSV convertendo as linhas em objetos. 
 
+## Como funciona no projeto
+
+![Importar CSV](ImportarArquivoCsv.png)
   
 ## Tecnologias
 
