@@ -16,4 +16,4 @@
 
 ## 📺 Link dos vídeos
 
- - [Lendo CSV]()
+ - [Lendo CSV](https://youtu.be/uCUw9lL9HnE)
